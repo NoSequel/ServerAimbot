@@ -24,6 +24,14 @@ public class AimbotListener implements Listener {
 
     private final AimbotHandler aimbotHandler;
 
+    /**
+     * Constructor to make a new aimbot listener object.
+     * <p>
+     * This class handles the aimbot itself,
+     * through the {@link PlayerMoveEvent}.
+     *
+     * @param aimbotHandler the handler to get the status from
+     */
     public AimbotListener(AimbotHandler aimbotHandler) {
         this.aimbotHandler = aimbotHandler;
     }

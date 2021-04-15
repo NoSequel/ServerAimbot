@@ -12,6 +12,15 @@ public class AimbotCommand implements CommandExecutor {
 
     private final AimbotHandler aimbotHandler;
 
+    /**
+     * Constructor to make a new aimbot command instance
+     * <p>
+     * This class handles all toggling and
+     * things such as that in a simple
+     * bukkit command, using {@link CommandExecutor}.
+     *
+     * @param aimbotHandler the handler to get the status of the player from
+     */
     public AimbotCommand(AimbotHandler aimbotHandler) {
         this.aimbotHandler = aimbotHandler;
     }
