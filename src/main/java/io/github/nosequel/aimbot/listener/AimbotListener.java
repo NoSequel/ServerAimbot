@@ -1,4 +1,4 @@
-package rip.skyland.aimbot.listener;
+package io.github.nosequel.aimbot.listener;
 
 import net.minecraft.server.v1_8_R3.PacketPlayOutPosition;
 import org.bukkit.Location;

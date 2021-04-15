@@ -1,8 +1,8 @@
-package rip.skyland.aimbot;
+package io.github.nosequel.aimbot;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
-import rip.skyland.aimbot.listener.AimbotListener;
+import io.github.nosequel.aimbot.listener.AimbotListener;
 
 public class AimbotPlugin extends JavaPlugin {
 
