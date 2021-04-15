@@ -2,3 +2,6 @@ name: Aimbot
 version: 1.0-SNAPSHOT
 author: NV6
 main: io.github.nosequel.aimbot.AimbotPlugin
+commands:
+  aimbot:
+    aliases: [aim]
